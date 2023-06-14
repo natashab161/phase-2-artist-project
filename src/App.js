@@ -20,25 +20,13 @@ function App() {
           <li>
             <Link to="/Create">create</Link>
           </li>
-          <li>
-            <Link to="/Login">login</Link>
-          </li>
-          <li>
-            <Link to="/ProfilePage">profile</Link>
-          </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Create" element={<Create />} />
-        <Route path="/ProfilePage" element={<ProfilePage />} />
         <Route path="/EventsMap" element={<EventsMap />} />
       </Routes>
-      <Login />
-
-      <UserStatus />
-
-      
     </div>
   );
 }
