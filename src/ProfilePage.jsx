@@ -16,7 +16,6 @@ import {
 import { updateProfile } from 'firebase/auth';
 import './ProfilePage.css';
 import { app, auth } from './Firebase';
-import UserInfo from './UserInfo';
 import EditDisplayName from './EditDisplayName';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
