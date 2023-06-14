@@ -5,33 +5,17 @@ import "./App.css";
 
 import ProfilePage from "./ProfilePage";
 import Home from "./Home";
-import About from "./About";
 import EventsMap from "./EventsMap";
 import Login from "./Login";
 
 
 function App() {
-  const [user, setUser] = React.useState(null);
-
-  React.useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      setUser(user);
-    });
-
-    return () => {
-      unsubscribe();
-    };
-  }, []);
-
   return (
     <div className="App">
       <nav>
         <ul className="navBar">
           <li>
             <Link to="/">home</Link>
-          </li>
-          <li>
-            <Link to="/About">about</Link>
           </li>
           <li>
             <Link to="/Create">create</Link>
