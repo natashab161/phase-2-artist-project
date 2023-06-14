@@ -3,10 +3,9 @@ import { Link, Route, Routes } from "react-router-dom";
 import "./App.css";
 // import UserLocationsMap from "./UserLocationsMap";
 
-import ProfilePage from "./ProfilePage";
 import Home from "./Home";
 import EventsMap from "./EventsMap";
-import Login from "./Login";
+
 
 
 function App() {
