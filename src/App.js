@@ -5,6 +5,7 @@ import "./App.css";
 
 import Home from "./Home";
 import EventsMap from "./EventsMap";
+import Create from "./Create";
 
 
 
